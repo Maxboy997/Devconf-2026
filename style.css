@@ -61,10 +61,10 @@ ul {
 }
 
 .logo {
-    font-size: 22px;
+    font-size: 30px;
     font-weight: 800;
     letter-spacing: 1px;
-    color: #38bdf8; /* Cyan accent */
+    color: #04a2e6; /* Cyan accent */
 }
 
 .menu-items {
@@ -79,7 +79,7 @@ ul {
 }
 
 .menu-items a:hover {
-    color: #38bdf8;
+    color: #009fe4;
 }
 
 /* HERO SECTION */
@@ -114,19 +114,19 @@ ul {
 }
 
 .hero-content h1 {
-    font-size: 48px;
+    font-size: 66px;
     font-weight: 800;
     margin-bottom: 20px;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
 }
 
 .italic-text {
-    font-style: italic;
-    color: #38bdf8;
+    font-style: bold;
+    color: #01b3ff;
 }
 
 .hero-content p {
-    font-size: 18px;
+    font-size: 20px;
     color: #94a3b8;
     margin-bottom: 30px;
 }
@@ -134,7 +134,7 @@ ul {
 /* HEADINGS FOR SECTIONS */
 .section-title {
     text-align: center;
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 40px;
     color: #ffffff;
@@ -179,7 +179,7 @@ ul {
 
 .speaker-img-placeholder {
     width: 100%;
-    height: 250px;
+    height: 425px;
     background-color: #334155;
     border-radius: 8px;
     margin-bottom: 20px;
