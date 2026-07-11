@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+
+    <!-- NAVBAR SECTION -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">DEVCONF 2026</div>
@@ -22,6 +24,8 @@
             </div>
         </div>
     </nav>
+
+    <!-- BANNER (HERO) SECTION -->
     <header class="hero-section">
         <div class="hero-overlay"></div>
         <div class="hero-content">
@@ -30,14 +34,143 @@
             <a href="#register" class="btn-primary btn-large">Register Now</a>
         </div>
     </header>
+
+    <!-- MEET THE SPEAKERS SECTION -->
     <section id="speakers" class="speakers-section">
         <h2 class="section-title">Meet the Speakers</h2>
         <div class="speakers-grid">
-            <div class="speaker-card"><span class="track-label label-ai">AI / ML</span><h3>Jhankar Mahbub</h3><p class="speaker-title">Founder and CEO Of Programming Hero</p></div>
-            <div class="speaker-card"><span class="track-label label-devops">Cloud & DevOps</span><h3>Elone Musk</h3><p class="speaker-title">Founder and CEO of SpaceX</p></div>
-            <div class="speaker-card"><span class="track-label label-frontend">Frontend</span><h3>Jensen Huang</h3><p class="speaker-title">CEO of NVIDIA</p></div>
-            <div class="speaker-card"><span class="track-label label-security">Security</span><h3>Arif Haque</h3><p class="speaker-title">President Of GraviTon</p></div>
+            <!-- Speaker 1 -->
+            <div class="speaker-card">
+                <div class="speaker-img-placeholder">
+                    <img src="./images/spk1.jpg" alt="Speaker 1" onerror="this.style.display='none';">
+                    <!-- Image text backup if file missing -->
+                    <span class="img-backup-text">Speaker Photo 1</span>
+                </div>
+                <span class="track-label label-ai">AI / ML</span>
+                <h3>Jhankar Mahbub</h3>
+                <p class="speaker-title">Founder and CEO Of Programming Hero</p>
+            </div>
+            <!-- Speaker 2 -->
+            <div class="speaker-card">
+                <div class="speaker-img-placeholder">
+                    <img src="./images/spk2.jpg" alt="Speaker 2" onerror="this.style.display='none';">
+                    <span class="img-backup-text">Speaker Photo 2</span>
+                </div>
+                <span class="track-label label-devops">Cloud & DevOps</span>
+                <h3>Elone Musk</h3>
+                <p class="speaker-title">Founder and CEO of SpaceX</p>
+            </div>
+            <!-- Speaker 3 -->
+            <div class="speaker-card">
+                <div class="speaker-img-placeholder">
+                    <img src="./images/spk3.jpg" alt="Speaker 3" onerror="this.style.display='none';">
+                    <span class="img-backup-text">Speaker Photo 3</span>
+                </div>
+                <span class="track-label label-frontend">Frontend</span>
+                <h3>Jensen Huang</h3>
+                <p class="speaker-title">CEO of NVIDIA</p>
+            </div>
+            <!-- Speaker 4 -->
+            <div class="speaker-card">
+                <div class="speaker-img-placeholder">
+                    <img src="./images/spk4.jpg" alt="Speaker 4" onerror="this.style.display='none';">
+                    <span class="img-backup-text">Speaker Photo 4</span>
+                </div>
+                <span class="track-label label-security">Security</span>
+                <h3>Arif Haque</h3>
+                <p class="speaker-title">President Of GraviTon</p>
+            </div>
         </div>
     </section>
+
+    <!-- SECURE YOUR SPOT (PRICING) SECTION -->
+    <section id="register" class="pricing-section">
+        <h2 class="section-title">Secure Your Spot</h2>
+        <p class="section-subtitle">Choose the plan that fits your goals. Early bird discounts available now.</p>
+        <div class="pricing-container">
+            <!-- Card 1 -->
+            <div class="pricing-card">
+                <h4 class="plan-name">Standard</h4>
+                <div class="price">৳999</div>
+                <ul class="features-list">
+                    <li>Access to Main Stage Sessions</li>
+                    <li>Conference Entry & Badge</li>
+                    <li>Digital Certificate of Attendance</li>
+                    <li>Complimentary Coffee & Snacks</li>
+                </ul>
+                <button class="btn-card">Get Ticket</button>
+            </div>
+            <!-- Card 2 (Highlighted Pro) -->
+            <div class="pricing-card highlighted-card">
+                <div class="badge-popular">Most Popular</div>
+                <h4 class="plan-name">VIP</h4>
+                <div class="price">৳4999</div>
+                <ul class="features-list">
+                    <li>Access to All Tracks, Stages & Workshops</li>
+                    <li>Conference Entry & Badge</li>
+                    <li>Premium Front-Row Seating</li>
+                    <li>Digital Certificate of Attendance</li>
+                    <li>Official DevConf 2026 T-Shirt & Swag Kit</li>
+                    <li>Complimentary Coffee & Snacks</li>
+                    <li>Buffet Lunch & Networking Dinner</li>
+                </ul>
+                <button class="btn-card btn-highlight">Get Pro Ticket</button>
+            </div>
+            <!-- Card 3 -->
+            <div class="pricing-card">
+                <h4 class="plan-name">Full Team</h4>
+                <div class="price">৳12500</div>
+                <ul class="features-list">
+                    <li>Passes for 6 Team Members</li>
+                    <li>Reserved Team Seating Area</li>
+                    <li>Company Logo on Attendee Wall</li>
+                    <li>Access to All Tracks, Stages & Workshops</li>
+                    <li>Digital Certificate of Attendance For All Members</li>
+                    <li>Official DevConf 2026 T-Shirt & Swag Kit</li>
+                    <li>Dedicated Networking Lounge Access</li>
+                    <li>Complimentary Coffee & Snacks</li>
+                    <li>Buffet Lunch & Exclusive Dinner</li>
+                </ul>
+                <button class="btn-card">Register Team</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI CHALLENGE SECTION: FAQ -->
+    <section class="faq-section">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <h3>Will I get a certificate after attending DevConf 2026?</h3>
+                <p>Yes, all registered participants will receive an official verifiable digital certificate of attendance within 3 days after the event concludes.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is food included in the ticket pricing?</h3>
+                <p>Standard tickets include coffee and light snacks. Pro and Team tickets include full buffet lunch and access to the exclusive evening networking dinner.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I change my ticket category later?</h3>
+                <p>Yes, you can upgrade from Standard to Pro up to 5 days before the event by paying the difference amount through our support portal.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer-section">
+        <div class="footer-top">
+            <div class="footer-logo">DEVCONF 2026</div>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+        <hr class="footer-divider">
+        <div class="footer-bottom">
+            <p>&copy; 2026 DevConf Bangladesh. All rights reserved. Created for Assignment-001.</p>
+        </div>
+    </footer>
+
 </body>
 </html>
